@@ -1,88 +1,71 @@
-# Project Title
+# Revisa Tudo
 
-One Paragraph of project description goes here
+app em react native para ajudar estudantes a revisar matérias periodicamente
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Clonando o projeto 
+
+ no terminal, rode :
 
 ```
-Give the example
+git clone git@github.com:Mionzinho/revisa-tudo.git
 ```
 
-And repeat
+baixando as dependências do backend
 
 ```
-until finished
+cd backend
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+yarn ou npm install
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+Iniciando o backend
 
 ```
-Give an example
+npm start
 ```
 
-## Deployment
+Agora em outro terminal iniciaremos o app
 
-Add additional notes about how to deploy this on a live system
+```
+cd mobile
+```
+
+Baixando as dependências
+```
+yarn ou npm install
+```
+
+Iniciando o app
+
+ Existem diversas formas de iniciar apps em react native, vou mostrar como inicializar no android, para ver outras alternativas * [clique auqi](https://reactnative.dev/docs/environment-setup)
+
+Ative o modo desenvolvedor no seu aparelho:
+Abra o aplicativo "Settings" (Configurações);
+No Android 8.0 ou em versões superiores, selecione "System" (Sistema);
+Role a tela e selecione "About phone" (Sobre o telefone);
+Role a tela e toque 7 vezes em "Build number" (Versão do Android).
+Retorne à tela anterior "Settings" (Configurações) e role até o final;
+Você deve encontrar agora as "Developer options" (Opções do Desenvolvedor).
+
+conecte o cabo de energia no seu aparelho e no seu computador e rode o comando :
+```
+npx react-native run-android
+```
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* [node.Js](https://nodejs.org/en/) - The web framework used
+* [Axios](https://github.com/axios/axios) - Dependency Management
+* [SQLite](https://www.sqlite.org/index.html) - Used to generate RSS Feeds
+* [React Native](https://reactnative.dev/) - Used to generate RSS Feeds
